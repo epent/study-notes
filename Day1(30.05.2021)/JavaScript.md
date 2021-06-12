@@ -58,7 +58,8 @@ let myFunction = (x, y, z) => {}
 
 let args = [0, 1, 2];
 
-myFunction(...args);   //unpacks an array and returns it as CSVs
+myFunction(...args);   //unpacks an array and returns it as CSVs // 0 1 2
+myFunction(args);      // [0, 1, 2] undefined undefined
 ```
 
 Spread can be used multiple times:
